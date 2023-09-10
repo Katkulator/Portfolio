@@ -1,0 +1,12 @@
+There is a cleaning robot which is cleaning a rectangular grid of size N x M, represented by array R consisting of N strings.
+Rows are numbered from 0 to N - 1 (from top to bottom) and columns are numbered from 0 to M-1 (from left to right).
+The robot starts cleaning in the top-left corner, facing rightwards. It moves in a straight line for as long as it can, in other words,
+while there is an unoccupied grid square ahead of it.
+When it cannot move forward, it rotates 90 degrees clockwise and tries to move forward again until it encounters another obstacle, and so on.
+Dots in the array (".") represent empty squares and "X"s represent occupied squares(ones the robot cannot move through).
+Each square that the robot occupied at least once is considered clean. The robot moves indefinitely.
+Write a function that given array R consisting of N strings, each of length M, representing the grid, returns the number of clean squares.
+
+Given R = ["...X..", "....XX", "..X..."] function should return 6
+Given R = ["....X..", "X......", ".....X.", "......."] function should return 15
+Given R = ["...X.", ".X..X", "X...X", "..X.."] function should return 9
