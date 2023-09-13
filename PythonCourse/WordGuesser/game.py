@@ -2,8 +2,8 @@ import random
 
 
 def pick_word():
-    words = ["majmun", "krastavac", "kurčina",
-             "cigara", "pas", "penis", "kepec"]
+    words = ["majmun", "krastavac", "traktor",
+             "cigara", "pas", "bunar", "plug"]
     return random.choice(words)
 
 
